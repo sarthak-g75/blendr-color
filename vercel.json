@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/generate-pallete",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

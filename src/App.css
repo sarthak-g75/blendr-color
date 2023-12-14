@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+}
+
+.swatch:hover .swatch-text {
+  opacity: 1;
+}
+
+.footer{
+  grid-template-columns: 1fr 0.5fr 0.5fr;
+}
+
+@media (max-width: 768px) {
+  .footer{
+    grid-template-columns: 1fr;
+  }
+}
